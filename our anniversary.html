@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 1st Anniversary Mitali ❤️</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+        
+        :root {
+            --pink: #ff8fab;
+            --rose: #e06c9f;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #fff0f5 0%, #ffe4e1 100%);
+            color: #333;
+            overflow-x: hidden;
+        }
+        
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), 
+                        url('https://picsum.photos/id/1015/2000/1200') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        
+        h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 5.8rem;
+            color: white;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.7);
+        }
+        
+        .subtitle {
+            font-size: 2rem;
+            color: #ffe4e1;
+            margin: 20px 0;
+        }
+        
+        section {
+            padding: 100px 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--rose);
+        }
+        
+        .love-letter {
+            background: white;
+            padding: 60px 50px;
+            border-radius: 30px;
+            box-shadow: 0 20px 50px rgba(224, 108, 159, 0.25);
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.9;
+            font-size: 1.15rem;
+            position: relative;
+        }
+        
+        .love-letter::before {
+            content: '❤️';
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 4rem;
+            opacity: 0.2;
+        }
+        
+        .signature {
+            margin-top: 50px;
+            text-align: right;
+            font-family: 'Great Vibes', cursive;
+            font-size: 2.2rem;
+            color: var(--rose);
+        }
+        
+        .floating-hearts {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+            overflow: hidden;
+        }
+        
+        button {
+            background: var(--rose);
+            color: white;
+            border: none;
+            padding: 16px 45px;
+            font-size: 1.3rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 0.4s;
+            box-shadow: 0 8px 20px rgba(224,108,159,0.3);
+        }
+        
+        button:hover {
+            transform: scale(1.12);
+            background: #c14a7a;
+        }
+        
+        .highlight {
+            background: #fff0f5;
+            padding: 2px 8px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="floating-hearts" id="hearts"></div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div style="text-align:center; z-index:2;">
+            <h1>Happy 1st Anniversary</h1>
+            <p class="subtitle">My Dearest Mitali ❤️</p>
+            <p style="color:white; font-size:1.6rem; margin:30px 0;">
+                One year of loving you, laughing with you, and falling for you every day
+            </p>
+            <button onclick="document.getElementById('letter').scrollIntoView({behavior: 'smooth'})">
+                Read My Heartfelt Letter
+            </button>
+        </div>
+    </section>
+
+    <!-- Love Letter -->
+    <section id="letter" style="background: linear-gradient(135deg, #fff0f5, #ffe4e1);">
+        <h2 class="section-title">My Love Letter To You</h2>
+        
+        <div class="love-letter">
+            <p><strong>My Dearest Mitali,</strong></p>
+            <br>
+            <p>Happy Anniversary, my love ❤️</p>
+            <p>Today marks one beautiful year since our journey began. From that very first nervous conversation on May 5th, you slowly stole my heart and became the most important part of my life. Now, I can’t imagine a single day without you.</p>
+            <p>This past year with you has been the happiest of my life. Your smile has become my favorite sight, your voice my favorite sound, and your presence my safest place. Whether we’re talking for hours, laughing at silly things, or sitting in comfortable silence, every moment with you feels like home.</p>
+            <p>You bring so much warmth, joy, and light into my days. I love the way your eyes sparkle when you talk about the things you’re passionate about. I love how deeply you care, how you support my dreams, and how you stand by me even on my hardest days. With you, I feel truly seen, loved, and cherished.</p>
+            <p>Thank you, Mitali, for choosing me, for every late-night text (<span class="highlight">you fall asleep when u touch pillow its super adorable</span>), every “I miss you”, and every moment you made me feel special. Because of you, I look forward to the future with excitement in my heart.</p>
+            <p>I don’t know what the coming years will bring, but I know one thing for sure — I want to spend them all with you. I want to create more memories, explore new places, chase our dreams together, and keep falling in love with you every single day.</p>
+            <p>You are my happiness, my peace, and my home. I love you more than words can express today, tomorrow, and every day after.</p>
+            <p>Happy Anniversary baby. Here’s to many more years of us.</p>
+            <p><em>ps- you are super hot and gorgeous and amazing and i wanna be with you forever and ever nd i dont want to loose you and you make me feel alive</em></p>
+            <br>
+            <div class="signature">
+                Forever yours,<br>
+                Paras 💕
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align:center; padding:80px 20px; background: linear-gradient(to top, #ff8fab, #ffe4e1); color:white;">
+        <p style="font-size:2.8rem; margin-bottom:15px;">I love you so much, Mitali ❤️</p>
+        <p>Thank you for making this year the best one of my life</p>
+    </footer>
+
+    <script>
+        // Floating hearts
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.textContent = ['❤️','💗','💕','💖'][Math.floor(Math.random()*4)];
+            heart.style.position = 'fixed';
+            heart.style.fontSize = Math.random() * 35 + 22 + 'px';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.top = '-60px';
+            heart.style.opacity = Math.random() * 0.7 + 0.5;
+            heart.style.zIndex = '9999';
+            heart.style.transition = 'all 7s linear';
+            document.getElementById('hearts').appendChild(heart);
+
+            setTimeout(() => {
+                heart.style.transform = `translateY(${window.innerHeight + 100}px) rotate(${Math.random() * 400 - 200}deg)`;
+            }, 100);
+
+            setTimeout(() => heart.remove(), 8000);
+        }
+
+        // Launch lots of hearts on load
+        function launchHearts() {
+            for(let i = 0; i < 80; i++) {
+                setTimeout(() => createHeart(), i * 35);
+            }
+        }
+
+        // Click anywhere to create hearts
+        document.addEventListener('click', () => {
+            for(let i = 0; i < 12; i++) {
+                setTimeout(createHeart, i * 60);
+            }
+        });
+
+        // Initialize
+        window.onload = () => {
+            launchHearts();
+            setInterval(createHeart, 280);
+        };
+    </script>
+</body>
+</html>
